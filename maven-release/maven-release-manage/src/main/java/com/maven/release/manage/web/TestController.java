@@ -13,7 +13,7 @@ public class TestController {
 	private TestService a;
 
 	@RequestMapping("/index")
-	public String showName() {
+	public String showNames() {
 		return a.showName();
 
 	}
