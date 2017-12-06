@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>maven-release-service</groupId>
 	<artifactId>maven-release-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>maven-release-service</name>
 	<url>http://maven.apache.org</url>
 	<packaging>jar</packaging>
