@@ -56,7 +56,7 @@
 					<!--git密码 -->
 					<password>cyq5211314</password>
 					<!--mvn目标指令 -->
-					<!-- <goals>-f pom.xml deploy</goals> -->
+					<goals>-f pom.xml deploy</goals>
 
 				</configuration>
 			</plugin>
