@@ -39,7 +39,7 @@
 		<developerConnection>scm:git:https://github.com/cyq-java/maven-release-test-git.git</developerConnection>
 		<!--需要打包项目的git地址 -->
 		<connection>scm:git:https://github.com/cyq-java/maven-release-test-git.git</connection>
-		<tag>maven-release-git-0.0.9</tag>
+		<tag>maven-release-1.2</tag>
 	</scm>
 	<build>
 		<plugins>
