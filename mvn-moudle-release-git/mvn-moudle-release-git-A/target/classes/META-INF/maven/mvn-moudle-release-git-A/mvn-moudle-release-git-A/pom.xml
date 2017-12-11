@@ -60,7 +60,7 @@
 					<password>cyq5211314</password>
 					<!--mvn目标指令 -->
 					<goals>-f pom.xml deploy</goals>
-
+<checkModificationExcludeList>.project,.classpath</checkModificationExcludeList>   
 				</configuration>
 			</plugin>
 		</plugins>
