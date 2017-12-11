@@ -97,51 +97,12 @@
 		<plugins>
 
 			<plugin>
-				<groupId>mvn-moudle-release-git</groupId>
-				<artifactId>mvn-moudle-release-git</artifactId>
-				<version>${project.version}</version>
-				<configuration>
-					<releaseGoals>
-						<releaseGoal>clean</releaseGoal>
-						<releaseGoal>site</releaseGoal>
-						<releaseGoal>deploy</releaseGoal>
-					</releaseGoals>
-					<releaseProfiles>
-						<releaseProfile>release</releaseProfile>
-						<releaseProfile>gpg</releaseProfile>
-					</releaseProfiles>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.5</version>
-				<configuration>
-					<goalPrefix>releaser</goalPrefix>
-				</configuration>
-				<executions>
-					<execution>
-						<id>default-descriptor</id>
-						<goals>
-							<goal>descriptor</goal>
-						</goals>
-						<phase>process-classes</phase>
-					</execution>
-					<execution>
-						<id>generated-helpmojo</id>
-						<goals>
-							<goal>helpmojo</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -161,18 +122,6 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-				<version>3.4</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.doxia</groupId>
-						<artifactId>doxia-module-markdown</artifactId>
-						<version>1.6</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
