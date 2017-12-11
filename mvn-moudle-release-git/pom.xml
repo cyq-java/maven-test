@@ -17,7 +17,7 @@
 
 	<ciManagement>
 		<system>travis-ci</system>
-		<url>https://travis-ci.org/danielflower/multi-module-maven-release-plugin</url>
+		<url>https://travis-ci.org/danielflower/mvn-moudle-release-git</url>
 	</ciManagement>
 
 
@@ -97,8 +97,8 @@
 		<plugins>
 
 			<plugin>
-				<groupId>com.github.danielflower.mavenplugins</groupId>
-				<artifactId>multi-module-maven-release-plugin</artifactId>
+				<groupId>mvn-moudle-release-git</groupId>
+				<artifactId>mvn-moudle-release-git</artifactId>
 				<version>${project.version}</version>
 				<configuration>
 					<releaseGoals>
