@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>mvn-moudle-release-git</groupId>
 		<artifactId>mvn-moudle-release-git</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 	</parent>
 	<groupId>mvn-moudle-release-git-A</groupId>
 	<artifactId>mvn-moudle-release-git-A</artifactId>
