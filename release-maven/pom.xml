@@ -19,7 +19,6 @@
 		<developerConnection>scm:git:https://github.com/cyq-java/maven-test.git</developerConnection>
 	<!-- git项目浏览器里的地址 -->
 		<url>https://github.com/cyq-java/maven-test/tree/master/</url>
-	  <tag>release-maven-0.0.1</tag>
   </scm> 
 	<distributionManagement>
 		<repository>
@@ -42,17 +41,17 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
-				<!-- <configuration>
+			<configuration>
 					<preparationGoals>package deploy</preparationGoals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<username>544303626@qq.com</username>
 					<password>cyq5211314</password>
 
-					项目打 tag 的 scm 路径配置信息
+					<!-- 项目打 tag 的 scm 路径配置信息 -->
 					<tagBase>https://github.com/cyq-java/maven-test/tree/master/</tagBase>
-					不使用默认的profile
-					<useReleaseProfile>false</useReleaseProfile>
-				</configuration> -->
+	<!-- 不使用默认的profile -->
+					<!-- <useReleaseProfile>false</useReleaseProfile> -->
+				</configuration>
 				<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.scm</groupId>
