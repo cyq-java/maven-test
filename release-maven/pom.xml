@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>release-maven</groupId>
 	<artifactId>release-maven</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>release-maven-a</module>
@@ -20,7 +19,8 @@
 		<developerConnection>scm:git:https://github.com/cyq-java/maven-test.git</developerConnection>
 		<!--git项目浏览器里的地址 -->
 		<url>https://github.com/cyq-java/maven-test/tree/master/</url>
-	</scm>
+	  <tag>release-maven-0.0.2</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>releases-c</id>
