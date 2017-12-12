@@ -35,7 +35,7 @@
 	</distributionManagement>
 
 
-	<!-- <build>
+	<build>
 		插件
 		<plugins>
 			发布插件
@@ -53,32 +53,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build> 
 	
-	 <!-- 编译配置 -->
-     <build>
-         <!-- 插件 -->
-           <plugins>  
-    <plugin>  
-      <groupId>org.apache.maven.plugins</groupId>  
-        <artifactId>maven-release-plugin</artifactId>  
-        <version>2.0-beta-7</version>  
-        <configuration>  
-          <username>544303626@qq.com</username>  
-          <password>cyq5211314</password>  
-          <tagBase>${project.artifactId}-${project.version}</tagBase>  
-          <goals>-f pom.xml deploy</goals>  
-        </configuration>  
-        <dependencies>  
-          <dependency>  
-            <groupId>org.apache.maven.scm</groupId>  
-            <artifactId>maven-scm-provider-jgit</artifactId>  
-            <version>1.9.5</version>  
-          </dependency>  
-        </dependencies>  
-    </plugin>  
-  </plugins> 
-     </build>
+	 
 
 	<dependencies>
 		<dependency>
