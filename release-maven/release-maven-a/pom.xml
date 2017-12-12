@@ -4,11 +4,11 @@
   <parent>
     <groupId>release-maven</groupId>
     <artifactId>release-maven</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
   <groupId>release-maven-a</groupId>
   <artifactId>release-maven-a</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>release-maven-a</name>
   <url>http://maven.apache.org</url>
   <properties>
