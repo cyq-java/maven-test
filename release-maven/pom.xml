@@ -51,7 +51,7 @@
 					<!-- 项目打 tag 的 scm 路径配置信息 -->
 					<tagBase>https://github.com/cyq-java/maven-test/tree/master/</tagBase>
 					<!-- 不使用默认的profile -->
-					<!-- <useReleaseProfile>false</useReleaseProfile> -->
+					<useReleaseProfile>false</useReleaseProfile>
 				</configuration>
 				<dependencies>
 					<dependency>
