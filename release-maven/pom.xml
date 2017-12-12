@@ -19,7 +19,6 @@
 		<developerConnection>scm:git:https://544303626@qq.com:cyq5211314@github.com/cyq-java/maven-test.git</developerConnection>
 		<!--git项目浏览器里的地址 -->
 		<url>https://github.com/cyq-java/maven-test/tree/master/</url>
-		<tag>release-maven-0.0.2</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
