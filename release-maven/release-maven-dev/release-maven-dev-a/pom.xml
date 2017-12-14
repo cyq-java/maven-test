@@ -6,8 +6,8 @@
   <name>release-maven-dev-a</name>
   <url>http://maven.apache.org</url>
   <parent>
-    <groupId>release-maven-dev</groupId>
-    <artifactId>release-maven-dev</artifactId>
+    <groupId>release-maven-dev-parents</groupId>
+    <artifactId>release-maven-dev-parents</artifactId>
     <version>0.0.18-SNAPSHOT</version>
   </parent>
   <properties>
