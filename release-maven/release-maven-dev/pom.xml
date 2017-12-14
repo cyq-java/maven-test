@@ -3,13 +3,14 @@
   <parent>
     <groupId>release-maven</groupId>
     <artifactId>release-maven</artifactId>
-    <version>0.0.16-SNAPSHOT</version>
+    <version>0.0.16</version>
   </parent>
   <groupId>release-maven-dev</groupId>
   <artifactId>release-maven-dev</artifactId>
   <packaging>pom</packaging>
   <modules>
   	<module>release-maven-dev-a</module>
+  	<module>release-maven-dev-parents</module>
   </modules>
   
 

@@ -3,11 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>release-maven</groupId>
 	<artifactId>release-maven</artifactId>
-	<version>0.0.16-SNAPSHOT</version>
+	<version>0.0.16</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>release-maven-a</module>
 		<module>release-maven-dev</module>
+       
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +21,7 @@
 		<developerConnection>scm:git:https://github.com/cyq-java/maven-test.git</developerConnection>
 		<!-- git项目浏览器里的地址 -->
 		<url>https://github.com/cyq-java/maven-test/tree/master/</url>
-	  <tag>HEAD</tag>
+	  <tag>release-maven-0.0.16</tag>
   </scm>
 	<distributionManagement>
 		<repository>
