@@ -9,7 +9,7 @@
     <groupId>release-maven-dev-parents</groupId>
     <artifactId>release-maven-dev-parents</artifactId>
     <relativePath>../release-maven-dev-parents</relativePath>
-    <version>0.2.14-SNAPSHOT</version>
+    <version>0.2.14</version>
   </parent>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
