@@ -3,7 +3,7 @@
   <parent>
     <groupId>release-maven</groupId>
     <artifactId>release-maven</artifactId>
-    <version>0.2.12</version>
+    <version>0.2.13-SNAPSHOT</version>
   </parent>
   <groupId>release-maven-dev</groupId>
   <artifactId>release-maven-dev</artifactId>
