@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>release-maven-dev-a</groupId>
   <artifactId>release-maven-dev-a</artifactId>
-  <version>0.0.16</version>
+  <version>0.0.16-SNAPSHOT</version>
   <name>release-maven-dev-a</name>
   <url>http://maven.apache.org</url>
   <properties>
