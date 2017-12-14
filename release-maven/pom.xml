@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>release-maven</groupId>
 	<artifactId>release-maven</artifactId>
-	<version>0.1.12-SNAPSHOT</version>
+	<version>0.1.11-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>release-maven-a</module>
