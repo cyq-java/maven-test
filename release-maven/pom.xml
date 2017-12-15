@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>release-maven</groupId>
 	<artifactId>release-maven</artifactId>
-	<version>0.2.21</version>
+	<version>0.2.22-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>release-maven-a</module>
@@ -21,7 +21,7 @@
 		<developerConnection>scm:git:https://github.com/cyq-java/maven-test.git</developerConnection>
 		<!-- git项目浏览器里的地址 -->
 		<url>https://github.com/cyq-java/maven-test/tree/master/</url>
-	  <tag>release-maven-0.2.21</tag>
+	  <tag>release-maven-0.2.20</tag>
   </scm>
 	<distributionManagement>
 		<repository>
